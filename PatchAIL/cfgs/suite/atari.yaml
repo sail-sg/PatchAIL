@@ -1,0 +1,31 @@
+# @package suite
+defaults:
+  - _self_
+  - atari_task@_global_: breakout
+
+suite: atari
+
+name: 'atari'
+
+# task settings
+frame_stack: 4
+action_repeat: 4
+discount: 0.99
+hidden_dim: 256
+
+# train settings
+num_train_frames: 10006000
+num_seed_frames: 50000
+# eval
+eval_every_frames: 40000
+num_eval_episodes: 10
+
+# snapshot
+save_snapshot: true
+
+task_make_fn:
+  _target_: suite.atari.make
+  name: ${task_name}
+  frame_stack: ${suite.frame_stack}
+  action_repeat: ${suite.action_repeat}
+  seed: ${seed}

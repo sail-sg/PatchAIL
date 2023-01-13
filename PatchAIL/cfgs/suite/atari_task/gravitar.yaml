@@ -1,0 +1,5 @@
+defaults:
+  - _self_
+
+task_name: gravitar
+num_train_frames_bc: 510000
