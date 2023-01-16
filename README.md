@@ -102,6 +102,12 @@ The link contains the following:
     ```
     python train.py agent=potil suite=dmc obs_type=pixels suite/dmc_task=walker_run bc_regularize=true num_demos=1 replay_buffer_size=150000 suite.num_train_frames=1101000 algo_name=rot
     ```
+- If you want to resume experiments from previous experiment:
+    ```
+    python train.py ...(use the same parameters that you want resume) +resume_exp=true
+    ```
+    This will load models from the snapshot of previous log directory.
+
 - Monitor results
 ```
 tensorboard --logdir exp_local

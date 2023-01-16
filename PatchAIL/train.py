@@ -321,7 +321,7 @@ class WorkspaceIL:
                 if self.train_video_recorder:
                     self.train_video_recorder.init(time_step.observation[self.cfg.obs_type])
                 # try to save snapshot
-                if self.cfg.suite.save_snapshot and (self.global_step % 1000 == 0):
+                if self.cfg.suite.save_snapshot and (self.global_step % 100 == 0):
                     if "regular_save" in self.cfg and self.cfg.regular_save:
                         self.save_snapshot(self.global_step)
                     else:
