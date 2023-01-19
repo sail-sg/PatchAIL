@@ -5,7 +5,7 @@ This is a repository containing the code for the paper ["Visual Imitation with P
 <img src="images/patchdisc.png" alt="PatchDisc" width="65%"/>
 <img src="images/patchail.png" alt="PatchAIL" width="60%"/>
 
-## Download expert demonstrations, weights and environment libraries [[link]](https://osf.io/4w69f/?view_only=e29b9dc9ea474d038d533c2245754f0c)
+## Download DMC expert demonstrations, weights and environment libraries [[link]](https://osf.io/4w69f/?view_only=e29b9dc9ea474d038d533c2245754f0c)
 The link contains the following:
 - The expert demonstrations for all tasks in the paper.
 - The weight files for the expert (DrQ-v2) and behavior cloning (BC).
@@ -13,6 +13,10 @@ The link contains the following:
 - Extract the files provided in the link
   - set the `path/to/dir` portion of the `root_dir` path variable in `cfgs/config.yaml` to the path of the `PatchAIL` repository.
   - place the `expert_demos` and `weights` folders in `${root_dir}/PatchAIL`.
+- Atari games:
+  - Download pkl files from [[link](https://drive.google.com/file/d/1I2wTuIFLaX_5wD7DI_QME2oYTJDBHiWb/view?usp=sharing)]
+  or
+  ```python generate_atari_rlunplugged.py```.
 
 
 ## Instructions
