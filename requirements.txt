@@ -1,7 +1,6 @@
 glfw==2.0.0
 grpcio==1.38.1
 scipy
-
 gt==0.3.14
 gtimer==1.0.0b5
 gym==0.22.0

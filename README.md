@@ -117,4 +117,7 @@ The link contains the following:
 tensorboard --logdir exp_local
 ```
 
+- Visualize Rewards
+  See guidance in `PatchAIL/visualization`
+
 Ack: This repo is based on the [ROT](https://github.com/siddhanthaldar/ROT/) repo.
