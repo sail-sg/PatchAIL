@@ -13,10 +13,11 @@ The link contains the following:
 - Extract the files provided in the link
   - set the `path/to/dir` portion of the `root_dir` path variable in `cfgs/config.yaml` to the path of the `PatchAIL` repository.
   - place the `expert_demos` and `weights` folders in `${root_dir}/PatchAIL`.
-- Atari games:
+
+## Obtain Atari games demonstrations:
   - Download pkl files from [[link](https://drive.google.com/file/d/1I2wTuIFLaX_5wD7DI_QME2oYTJDBHiWb/view?usp=sharing)]
   or
-  ```python generate_atari_rlunplugged.py```.
+  ```python generate_atari_rlunplugged.py``` (change the env name contained in the script before running).
 
 
 ## Instructions
