@@ -1,6 +1,6 @@
 # PatchAIL: Visual Imitation with Patch Rewards
 
-This is a repository containing the code for the paper ["Visual Imitation with Patch Rewards"](https://arxiv.org/).
+This is a repository containing the code for the paper ["Visual Imitation with Patch Rewards"](https://openreview.net/forum?id=OnM3R47KIiU).
 
 <img src="images/patchdisc.png" alt="PatchDisc" width="65%"/>
 <img src="images/patchail.png" alt="PatchAIL" width="60%"/>
